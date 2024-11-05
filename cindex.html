@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+</head>
+<body>
+    <h1>Chatbot</h1>
+    <div id="chatbox">
+        <input type="text" id="userInput" placeholder="Type your message here...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+    <div id="response"></div>
+
+    <script>
+        function sendMessage() {
+            let userInput = document.getElementById('userInput').value;
+            fetch('/chat', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({message: userInput})
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('response').innerText = data.response;
+            });
+        }
+    </script>
+    
+    <script type="text/javascript">
+        function loadAcDiv(t){
+            let e;
+            (e=t.createElement("div")).id="embed-ab",
+            e.async=!0,
+            e.setAttribute("data-ab-id","qw24BqLy"),
+            e.setAttribute("data-btn-bg","#067174"),
+            e.setAttribute("data-btn-img","https://myagencycoach.agency/assets/media/logos/favicon.png"),
+            e.setAttribute('data-avtr-img',"https://myagencycoach.agency/assets/avatars/Natalie-Stonebridge.png"),
+            e.setAttribute("data-ab-url","https://myagencycoach.agency"),
+            e.setAttribute("data-bub-ani","anim-ok"),
+            e.setAttribute("data-wid-pos","fcpw-right"),
+            t.body.appendChild(e)
+        }
+
+        function initialize(t){
+            let e;
+            (e=t.createElement("script")).id="script-ab",
+            e.async=!0,
+            (e.type = "text/javascript"),
+            e.src="https://myagencycoach.agency/assets/chat/embed.js",
+            e.onload=loadAcDiv(t),
+            t.body.appendChild(e)
+        }
+
+        window.addEventListener?window.addEventListener("load",initialize(document),!1):window.attachEvent("load",initialize(document),!1);
+    </script>
+</body>
+</html>

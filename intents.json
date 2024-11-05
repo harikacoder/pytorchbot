@@ -1,0 +1,368 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "hii",
+        "hii there",
+        "helloo",
+        "hello there",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello"
+     
+      ],
+      "responses": [
+        "Welcome to Mayden SmartHealth!! How can we assist you today?",
+        "Hii !! how can we help you",
+        "Hii there.i'm here to assist you",
+        "Hellooo!  How can we help you with your insurance needs?",
+        "Hello! How can we help you with your insurance needs?",
+        "Hi there! What can we do for you today?",
+        "Hello, thanks for contacting Mayden SmartHealth. How can we help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "okay thats all",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "Goodbye! Thank you for choosing Mayden SmartHealth .",
+        "okay bye then!!.if you need further assistance i'm here to help you",
+        "See you later! Feel free to reach out anytime.",
+        "Have a great day! Thanks for contacting Mayden SmartHealth."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure. If you have any other questions, feel free to ask."
+      ]
+    },
+    {
+      "tag": "policy_inquiry",
+      "patterns": [
+        "Can you tell me about my policy?",
+        "What is covered under my policy?",
+        "Policy details",
+        "Tell me about my insurance coverage"
+      ],
+      "responses": [
+        "Sure! Please provide your policy number for more details.",
+        "I'd be happy to help! What is your policy number?",
+        "Can you please provide your policy number to look up the details?",
+        "I'd need your policy number to provide specific information about your coverage."
+      ]
+    },
+    {
+      "tag": "claim_process",
+      "patterns": [
+        "How do I file a claim?",
+        "Claim process",
+        "File a claim",
+        "How to submit a claim",
+        "Does Mayden help employees with claims"
+      ],
+      "responses": [
+        "You can file a claim online at our website or call our customer service.",
+        "To file a claim, please visit our claims page or contact our support team.",
+        "Filing a claim is easy. Visit our website or call us for assistance.",
+        "Please visit the claims section on our website or call us to file a claim.",
+        "Our claims team has experience in handling more than 10,000 claims, and we help our clients with their expertise at no additional cost. With more than 7000 claims successfully processed, we make sure that your employees have the best experience and get the maximum amount approved with our advice."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Payment methods"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard, and Paypal.",
+        "We accept most major credit cards and Paypal.",
+        "You can make payments using VISA, Mastercard, or Paypal.",
+        "Our accepted payment methods include VISA, Mastercard, and Paypal."
+      ]
+    },
+    {
+      "tag": "coverage_types",
+      "patterns": [
+        "What types of insurance do you offer?",
+        "Types of coverage",
+        "Insurance products",
+        "Available insurance plans"
+      ],
+      "responses": [
+        "We offer various types of insurance including health, auto, home, and life insurance.",
+        "Our insurance products include health, auto, home, and life insurance plans.",
+        "We provide coverage for health, auto, home, and life insurance.",
+        "You can choose from health, auto, home, and life insurance plans."
+      ]
+    },
+    {
+      "tag": "contact_info",
+      "patterns": [
+        "How can I contact you?",
+        "Customer service contact",
+        "Support contact",
+        "Contact details"
+      ],
+      "responses": [
+        "You can contact our customer service at (123) 456-7890 or email us at Mayden@smarthealth.com.",
+        "For support, call (123) 456-7890 or email Mayden@smarthealth.com.",
+        "Reach out to us at (123) 456-7890 or Mayden@smarthealth.com for any assistance.",
+        "Our customer service can be reached at (123) 456-7890 or Mayden@smarthealth.com."
+      ]
+    },
+    {
+      "tag": "insurance_info",
+      "patterns": [
+        "Tell me about insurance",
+        "What is insurance?",
+        "How does insurance work?",
+        "Explain insurance benefits"
+      ],
+      "responses": [
+        "Insurance is a contract that transfers the risk of financial loss from an individual or business to an insurance company. It helps protect against unforeseen expenses.",
+        "Insurance works by pooling risk among a large number of people. Premiums are paid to cover potential losses, providing financial security.",
+        "Benefits of insurance include financial protection, peace of mind, and assistance in managing risk.",
+        "Insurance provides a safety net by covering various types of risks, ensuring that you are financially protected in case of unexpected events."
+      ]
+    },
+    
+    {
+      "tag": "group_health_insurance_info",
+      "patterns": [
+        "Do you provide health insurance for teams of all sizes?",
+        "What is group health insurance?",
+        "What are the benefits of group health insurance?",
+        "Is it mandatory to offer group health insurance for a startup in India?",
+        "Why should I choose a group insurance plan with additional healthcare benefits?",
+        "What is the cost of group health insurance?",
+        "What are the tax benefits of group health insurance?",
+        "Does Mayden offer other benefits except health insurance?",
+        "Does Mayden help employees with claims?",
+        "Is it safe to buy group health insurance online?",
+        "What is the waiting period for group health insurance?",
+        "What is the minimum number of employees required for group health insurance in India?",
+        "Does group health insurance cover pre-existing diseases?",
+        "How can I renew my group health insurance with Nova?",
+        "Can I change my group health insurance policy before its expiration?"
+      ],
+      "responses": [
+        "Yes, we can help you find the right policy for your team no matter how small or big it may be in size. Nova can help find the best quotes customised to cater to your company size.",
+        "Group health insurance is a policy that provides coverage to a group of members. Usually, this coverage is taken for employees of a company.",
+        "Group health insurance is beneficial in several ways for both employees and employers. For employees, group health insurance provides financial coverage, covers pre-existing diseases without a waiting period and helps provide coverage for their families. For employers, group health insurance helps attract and retain top talent, save on taxes, and build a people-first team.",
+        "As of 2021, it is essential to offer group health insurance for any company, startup, or organisation working on-site. A startup needs a paperless, frictionless, and hassle-free solution with add-on benefits for employees. That’s where tech-powered group health insurance solutions and platforms come into the picture.",
+        "There are several reasons to choose a plan with add-on benefits. Your employees are bound to be happier when you offer add-on benefits like teleconsultation, employee wellness initiatives, mental health coverage, and maternity benefits. The work culture (and perks) improve the overall employee NPS and makes you a magnet for top industry talent.",
+        "The premium for your team’s group health insurance depends on the team size as well as the type of policy you opt for you. You can get an estimate for the premium using our policy calculator.",
+        "The premium paid to provide a group health insurance policy for employees in India can be deemed a business expense. The Indian Income Tax Act of 1961 considers this expense to be 100% tax-deductible.",
+        "Yes, we do. Nova offers a range of benefits to ensure the overall wellness of your team. This includes full body check-ups, mental wellness support, telehealth services, dental check-ups, discounted medicines and maternity wellness benefits.",
+        "Our claims team has experience in handling more than 10,000 claims, and we help our clients with their expertise at no additional cost. With more than 7000 claims successfully processed, we make sure that your employees have the best experience and get the maximum amount approved with our advice.",
+        "Yes, as long as you buy the group health insurance plan from a trustworthy insurer. To ensure that you invest in the best group health insurance, it is important to look at different insurers and prices before making your final decision, which is where Nova comes in. Nova Benefits is an IRDAI licensed insurance broker that partners with multiple insurers to get you the best group medical insurance plans.",
+        "Waiting period refers to the time period before a selected list of ailments begin to get covered by your policy. Usually, this applies to pre-existing ailments, and some ailments may have a waiting period of a year or two.Mayden's group health insurance plans have zero waiting period on all ailments covered under insurance.",
+        "According to the IRDAI, a minimum of seven employees are required to provide group health insurance.",
+        "Pre-existing diseases refer to ailments an individual is diagnosed with before or while buying health insurance. The group health insurance offered by Mayden covers pre-existing diseases of employees from day one if any.",
+        "You can schedule a call with the Mayden team, and we’ll help you find the best group health insurance for your team in terms of benefits, price and claims experience.",
+        "Yes, you can change your group health insurance policy by terminating your team’s existing group health policy. However, the refund will depend on the insurance company’s terms and conditions."
+      ]
+    },
+    {
+      "tag": "super_top_up_health_insurance_info",
+      "patterns": [
+        "What are the best super top-up health insurance plans in India?",
+        "What is super top-up health insurance?",
+        "What is the benefit of purchasing super top-up health insurance?",
+        "How does super top-up health insurance work?",
+        "Are there any age limits or restrictions for super top-up health insurance?",
+        "What is the process to raise a claim against a super top-up plan?"
+      ],
+      "responses": [
+        "Several super top-up insurance plans are available in India - policyholders can invest in a plan that suits their needs the best based on price and the level of additional coverage they need. Experts at Nova can help you find the best super top-up coverage for your team.",
+        "Super top-up health insurance is a plan that covers your medical bills up to the super top-up sum insured provided in the plan above a base amount (deductible) once exhausted. The deductible amount is predetermined by the base policy. A base policy can be either your individual health insurance or your GMC coverage provided by your employer.",
+        "Once you have exhausted your base coverage amount, the super top-up health insurance ensures coverage till the super top-up sum insured amount. It also gives you the benefit of a higher sum insured at a lower premium than regular policies.",
+        "Super top-up health insurance covers your hospital bill when your basic health insurance plan is exhausted. It offers a higher sum insured at an affordable premium, giving your health insurance a boost through additional coverage.",
+        "Super top-up health insurance plans are available for employees below 75 years of age who are already covered under Mayden group health insurance. Dependent children should be between 90 days and 24 years of age.",
+        "You can raise a claim for the super top-up under the policies section on your Mayden Portal. If your base policy is not with Mayden, you can visit Maydens’s portal to claim against the super top up policy only."
+      ]
+    },
+    {
+      "tag": "covid_insurance_info",
+      "patterns": [
+        "What is Covid Insurance?",
+        "What's the eligibility critera for Group Covid Insurance?",
+        "How do I file a covid claim?",
+        "Are covid tests covered by insurance?"
+      ],
+      "responses": [
+        "Covid Insurance is an insurance policy that covers the medical expenses incurred by a policyholder for the treatment of Covid-19.",
+        "If your company is registered with MCA, and has 7+ employees you can purchase group covid insurance.",
+        "A positive test report for Covid-19 is mandatory in the event of a claim. Only RT-PCR or Rapid Antigen Test results will be accepted by the insurers for covid claims.",
+        "Yes, but the extent of the coverage varies from policy to policy and the test needs to be prescribed by a doctor."
+      ]
+    },
+    {
+      "tag": "telehealth_info",
+      "patterns": [
+        "What is a teleconsultation?",
+        "Are the doctors provided through Mayden's teleconsultation services qualified?",
+        "Will my medical information remain confidential?",
+        "Can we consult the same doctor more than once?",
+        "What are the benefits of telehealth?",
+        "Why should I provide telehealth as a benefit to my employees?",
+        "What conditions can be treated via telehealth?"
+      ],
+      "responses": [
+        "A teleconsultation is an instant way for doctors and patients to connect over a video call, voice call or text message.",
+        "Yes, they are. Additionally, you can read more about each doctor’s qualifications before booking an appointment with them.",
+        "Yes, yes and YES! All information given to the doctor during the consultation will remain confidential.",
+        "Yes, you can repeat your consultation with a specific doctor as per your requirement.",
+        "Mayden’s telehealth services can help your team access 1,00,000+ doctors from 76,000+ clinics and hospitals for consultations on 20+ specialities. This can help employees access medical support from the comforts of their home pushing them to keep a tab on their health proactively through regular check-ups.",
+        "Telehealth enables your team to proactively work towards better health through regular consultations with top doctors. It also helps in early detection of any serious ailments which can help the employee in taking necessary action towards improvement.",
+        "Mayden’s telehealth services provide coverage for 20+ specialities including homeopathy, gynaecology, dental, general physician, pediatrics and many more."
+      ]
+    },
+    {
+      "tag": "mental_wellness_info",
+      "patterns": [
+        "Why should I secure the mental wellness of my team?",
+        "What are emotional health check-ins?",
+        "What are the benefits of ensuring mental wellness in the workplace?",
+        "What helps in improving the mental health of employees?",
+        "What can employers do for mental health?",
+        "What are some employee mental wellness programs?",
+        "Why is mental health important for employees?"
+      ],
+      "responses": [
+        "While a group health insurance plan provides the necessary financial coverage to your employees in case of an emergency, mental wellness support can help your team get certified help in case they feel burnt out or under too much stress. Regular mental wellness sessions are known to be effective in helping employees cope with workplace stress, and a professional mental health expert is available for your team to reach out to.",
+        "Mayden offers mental wellness support to employees through our network of verified and certified mental wellness professionals who will help employees handle their work stress, and anxiety and get over burnout through regular counselling sessions.",
+        "Ensuring mental wellness at the workplace can have several benefits such as increased productivity, higher employee morale, reduced absenteeism, and better overall employee satisfaction.",
+        "Offering mental wellness support, promoting work-life balance, providing resources for stress management, and encouraging open communication can significantly improve the mental health of employees.",
+        "Employers can offer mental wellness programs, provide access to mental health resources, create a supportive work environment, encourage regular breaks, and promote work-life balance.",
+        "Employee mental wellness programs can include counselling services, stress management workshops, mindfulness sessions, access to mental health resources, and support groups.",
+        "Mental health is crucial for employees as it directly impacts their productivity, engagement, and overall job satisfaction. Supporting mental health can lead to a healthier, happier, and more productive workforce."
+      ]
+    },
+    {
+      "tag": "dental_wellness_info",
+      "patterns": [
+        "Do you offer dental coverage?",
+        "What are the benefits of dental wellness programs?",
+        "How can dental wellness programs improve employee health?",
+        "What dental services are covered under your insurance plans?",
+        "Are regular dental check-ups covered?",
+        "Can employees avail discounts on dental treatments?"
+      ],
+      "responses": [
+        "Yes, Mayden offers dental coverage as part of our wellness benefits.",
+        "Dental wellness programs can improve overall health, prevent serious dental issues, and enhance the well-being of employees.",
+        "Regular dental check-ups and treatments can prevent serious dental problems, reduce the risk of other health issues, and promote overall health and well-being.",
+        "Our insurance plans cover a range of dental services including regular check-ups, cleanings, fillings, and more.",
+        "Yes, regular dental check-ups are covered under our insurance plans.",
+        "Yes, employees can avail discounts on dental treatments through our network of partnered dental clinics."
+      ]
+    },
+    {
+      "tag": "life_insurance_info",
+      "patterns": [
+        "Tell me about life insurance",
+        "What is life insurance?",
+        "How does life insurance work?",
+        "Explain life insurance benefits"
+      ],
+      "responses": [
+        "Life insurance provides a financial payout to beneficiaries upon the policyholder's death, helping to cover expenses and providing financial security.",
+        "Life insurance works by paying premiums over time. In the event of the policyholder's death, the insurance company pays a predetermined amount to the beneficiaries.",
+        "Benefits of life insurance include financial security for your loved ones, coverage of debts and final expenses, and peace of mind.",
+        "Life insurance ensures that your family is taken care of financially in your absence, covering costs such as mortgages, education, and daily living expenses."
+      ]
+      },
+      {
+        "tag": "buy_insurance",
+        "patterns": [
+          "How do I buy insurance?",
+          "Process of buying insurance",
+          "How can I purchase insurance?",
+          "Steps to buy insurance"
+        ],
+        "responses": [
+          "To buy insurance, you can visit our website and choose the type of insurance you're interested in. Follow the instructions to fill out an application and provide the necessary information.",
+          "Purchasing insurance is easy. Visit our website, select the insurance plan you need, fill out the application form, and submit it for processing.",
+          "You can buy insurance by contacting our customer service or visiting our website. Choose your desired insurance plan and complete the application process.",
+          "The process of buying insurance involves selecting a plan, filling out an application, and providing necessary documentation. You can do this online or by contacting our support team."
+        ]
+      },
+      {
+        "tag": "application_process",
+        "patterns": [
+          "Can you explain the application process?",
+          "Details about the application process",
+          "How does the insurance application process work?",
+          "Explain the steps to apply for insurance"
+        ],
+        "responses": [
+          "The insurance application process involves the following steps:\n1. Choose the type of insurance you need (e.g., health, life, auto, home).\n2. Visit our website or contact our customer service to start the application.\n3. Fill out the application form with your personal and financial details.\n4. Provide any necessary documentation (e.g., proof of identity, income).\n5. Submit the application and wait for approval.\n6. Once approved, pay the initial premium to activate your coverage.\n7. Receive your policy documents and review the terms and conditions. you can also directly come to us and can do the whole process in our assistance "
+        ]
+      },
+      {
+        "tag": "unknown",
+        "patterns": [
+          "whyy aree uu dumbbb",
+          "why are you dumb",
+          "what is this",
+          "I do not understand...",
+          "Can you repeat that?",
+          "I don't get it"
+        ],
+        "responses": [
+          "I'm sorry.let me revise the question",
+          "I'm sorry, I didn't understand that. Can you please rephrase?",
+          "I'm here to assist you. Could you please clarify your question?",
+          "I apologize, but I couldn't understand your query. Can you provide more details?",
+          "Let's try that again. What exactly would you like to know?"
+       
+       ]
+      },
+      {
+        "tag": "star_health_insurance_info",
+        "patterns": [
+          "What happens if I miss my renewal date?",
+          "Can I port my existing health insurance policy to Star Health?",
+          "How can I update my personal details or coverage in my policy?",
+          "How do I contact Star Health customer support?",
+          "Where can I find the nearest Star Health branch?",
+          "Where can I find the policy documents and terms & conditions?",
+          "Are there any wellness programs or health tips offered by Star Health?",
+          "What is a No Claim Bonus (NCB)?",
+          "Can I get tax benefits on my health insurance premium?"
+        ],
+        "responses": [
+          "If you miss the renewal date, you can still renew within the grace period. Failing to renew within this period may result in policy lapse and loss of benefits.",
+          "Yes, you can port your existing policy from another insurer to Star Health, subject to terms and conditions.",
+          "Updates can be made online through our customer portal, via our mobile app, or by contacting our customer support.",
+          "You can contact us via our toll-free number, email, or through the live chat feature on our website.",
+          "You can find the nearest branch using the branch locator tool on our website.",
+          "Policy documents and terms & conditions are available for download on our website under each policy’s section.",
+          "Yes, we offer wellness programs and health tips through our website and mobile app to help you maintain a healthy lifestyle.",
+          "NCB is a benefit for not making any claims during the policy period. It typically provides a discount on the premium for the next renewal.",
+          "Yes, health insurance premiums are eligible for tax benefits under Section 80D of the Income Tax Act."
+        ]
+      }
+  ]
+}
